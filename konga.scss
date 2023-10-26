@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color:rgb(195, 184, 184);
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+.container-fluid{
+    .row{
+        header{
+            ul.top{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 3em;
+                list-style-type: none;
+                padding: 1em 0em;
+                cursor: pointer;
+                li{
+
+                    img{
+                            width: 120%;
+                            height: 1em;
+                        }
+                }
+            }
+            nav{
+                background-color:red;
+                padding: 0.5em 0em;
+           ul{
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0em 3em;
+            li.flex4{
+                flex: 5;
+            }
+        
+             
+         
+         
+         
+        
+            li{
+                flex: 1;
+                img{
+                    width: 50%;
+                    
+                }
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+                a:hover{
+                    background-color:gold;
+                    color: blue;
+                    padding: 1.0em 0.2em;
+                    transition: .1s ease-in-out;  
+                }
+                .cart:hover{
+                    background-color:gold;
+                    color: blue;
+                    padding:0.5em;
+
+                }
+                .search{
+
+                    display: flex;
+                    input{
+                        width: 100%;
+                        height: 40px;
+                        border-bottom-left-radius: 0.25rem;
+                        border-top-left-radius: 0.25rem;
+                        border:none;
+                        padding: 0em 0.5em;
+                        outline: none;
+                    }
+                    button{
+                        padding: 0.1em 0.8em;
+                        width: 9%;
+                        color: white;
+                        // background-color: green;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border: none;
+                    }
+                }
+                
+                .cart{
+                    display: flex;
+                    background-color:green;
+                    color: #fff;
+                    border-radius: 0.125rem;
+                    gap:3%;
+                    text-align: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    padding: 0.5em 0.6em;
+                    -webkit-transition: background-color .3s ease-in-out;
+                    -o-transition: background-color .3s ease-in-out;
+                    transition: background-color .3s ease-in-out;
+                    p{
+                        font-size: small;
+                        margin-top: 1.4px;
+                    }
+                button{
+                    font-size: 15px;
+                    padding: 0 2% 0 2%;
+                }
+               
+            }
+                }
+            }
+           }
+            }
+        }
+       
+    }
+.top{
+     text-decoration: none;
+   background-color: gold;
+}
+// .top:hover{
+    // background-color: yellow;
+    // padding: 1.0em 0.4em;
+    // transition: .1s ease-in-out;
+
+// }
+
+.noo{
+    background-color: #ed017f;
+    padding: 0.5em 0em;
+    
+}
+.koo{
+font-size:small;    
+display: flex;
+list-style-type: none;
+align-items: center;
+justify-content: center;
+text-align: center;
+// gap: 1em;
+padding: 0em 3em;
+cursor: pointer;
+}
+li.flex4{
+    flex: 5;
+}
+h2{
+    font-weight: bold;
+    font-size:50px;
+    text-transform: capitalize;
+    color:gold;
+    text-align: center;
+    font-family:tahoma;
+    span{
+      border-right: .05em solid;
+      animation:forwards;
+      -webkit-animation:forwards;
+}
+}
+.mam{
+    font-family: monospace;
+    color: green;
+}
+.jjj{
+    
+}

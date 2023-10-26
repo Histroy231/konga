@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 15em;
+    background-color: yellow ;
+    color: blue;
+}
+form{
+    input[type="User Id"]{
+        width:90%;
+        padding:1rem;
+        border-radius:10px;
+        background:white;
+        border-color:skyblue;
+    }
+    input[type="password"]{
+        width:90%;
+        padding:1rem;
+        border-radius:10px;
+        background:white;
+        text-align:left;
+        border-color:skyblue;
+        }
+
+        input[type="submit"]{
+            width:50%;
+            margin-top:50px;
+            margin-left:200px;
+            padding:1rem;
+            background:gold;
+            border-color:red;
+            }
+
+            input[type="submit"]:hover{
+                background-color:blue;
+          
+                }
+            
+}
+.bbb{
+    margin-top: 25px;
+    margin-right: 100px;
+    .mafia1, .mafia2{
+        width:70%;
+        padding:0.1rem;
+        border-radius:30px;
+        background:white;
+        text-align:center;
+        color:black;
+        font-size:13px;
+        font-weight:400;
+        height:40px;
+        margin:auto;
+        }    
+}
+
+
+  

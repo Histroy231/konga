@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color:blue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+.wrapper{
+    background: whitesmoke;
+    // position: relative;
+    height: 180vh;
+
+    body{
+        font-family:'poppins' ;
+        overflow-x: hidden;
+    }
+    form{
+        background:red;
+        width:50%;
+        height: 120vh;
+     position: absolute;
+     top: 6%;
+     left: 30%;
+     padding: 20px;
+      border-radius: 10px;
+     .img{
+        text-align: center;
+        i{
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        h3{
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: bolder ;
+        }
+    } 
+
+    .form-group{
+        input{
+            border: none;
+            outline: none;
+            background: whitesmoke;
+            height: 40px;
+            width: 100%;
+        }
+    } 
+    }
+    .button1{
+        background-color: gold;
+        border-radius:15px ;
+        color: white;
+        width: 70%;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 90px;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+    .button1:hover{
+        background-color:#ed017f;
+    }
+    .have{
+          margin-top: 10px;
+          text-align: center;
+    }
+.style{
+    margin-bottom: 80%;
+}
+}
+  .width{
+    background: wheat;
+    width: 110px;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    height: 4vh;
+  }
+a{
+    text-decoration: none;
+    color: purple;
+}
+ @media (max-width: 640){
+    .width{
+        background: wheat;
+        // max-width: 90px;
+        width: 110px;
+        color: red;
+        border: none;
+        border-radius: 10px;
+        height: 4vh;
+}
+.button1{
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    //text-align: center;
+    margin-left: 90px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+}
